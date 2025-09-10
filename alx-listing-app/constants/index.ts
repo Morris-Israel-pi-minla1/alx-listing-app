@@ -1,7 +1,2 @@
-import React from 'react'
-
-export default function index() {
-  return (
-    <div>index</div>
-  )
-}
+export const API_URL = "https://api.example.com";
+export const APP_NAME = "ALX Listing App";

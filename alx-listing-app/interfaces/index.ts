@@ -1,7 +1,9 @@
-import React from 'react'
+export interface CardProps {
+  title: string;
+  description: string;
+}
 
-export default function index() {
-  return (
-    <div>index</div>
-  )
+export interface ButtonProps {
+  label: string;
+  onClick?: () => void;
 }
